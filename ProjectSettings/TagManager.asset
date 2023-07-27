@@ -6,6 +6,11 @@ TagManager:
   tags:
   - EFFECT
   - ENEMY
+  - PLAYER
+  - BULLET
+  - GROUND
+  - OBJECT
+  - WALL
   layers:
   - Default
   - TransparentFX
@@ -13,15 +18,15 @@ TagManager:
   - 
   - Water
   - UI
-  - PLAYER
+  - EFFECT
+  - 
+  - SEARCH
+  - 
   - UNIT
+  - OBJECT
+  - PLAYER
+  - BULLET
   - HIT
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 

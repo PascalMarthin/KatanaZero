@@ -10,7 +10,7 @@ public class FSManager : MonoBehaviour
 {
     public FSMState idleState;
 
-    private FSMState currentState;
+    public FSMState currentState { get; private set; }
     private FSMState postState;
     private StateInfo stateInfo;
 
@@ -47,7 +47,7 @@ public class FSManager : MonoBehaviour
     {
         if(currentState.LateUpdate != null)
         {
-            currentState.LateUpdate(stateInfo);
+            currentState.LateUpdate(stateInfo);                             
         }
     }
 
@@ -96,8 +96,12 @@ public class FSManager : MonoBehaviour
             {
                 Debug.Log("Change same State --> " + _statestring);
                 return;
-            }
+            } 
             postState = currentState;
+            if (postState != null)
+            {
+                stateInfo.PostStatename = postState.name;
+            }
             currentState.Exit(stateInfo);
             currentState = newState;
             currentState.Enter();
@@ -152,5 +156,5 @@ public class FSManager : MonoBehaviour
 public struct StateInfo
 {
     public float runningTime;
-
+    public string PostStatename;
 }
