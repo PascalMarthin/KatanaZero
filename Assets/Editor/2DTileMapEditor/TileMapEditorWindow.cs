@@ -11,25 +11,29 @@ public class TileMapEditorWindow : EditorWindow
 {
     private Tilemap tilemap;
     private FileType fileType = FileType.None;
+    private StateGUI stateGUI = StateGUI.None;
     private string savefilePath ;
     private string fileInputPath ;
     private string fileOutputPath ;
     private string fileName;
+    private string fileExtension;
+    
+    enum StateGUI
+    {
+        None,
+        Input,
+        Output,
+        Finish,
+    }
 
     enum FileType
     {
         None,
-        Finish,
-
-        // Output
         Binary,
         Txt,
         Json,
         XML,
-
-        // Input
-        Findfile,
-        Input,
+        Xlsx,
     }
 
     [MenuItem("Tools/TestSerialize")]
@@ -44,6 +48,7 @@ public class TileMapEditorWindow : EditorWindow
         fileName = "";
         fileInputPath = "";
         fileOutputPath = "";
+        fileExtension = "";
     }
 
     void OnGUI()
@@ -53,16 +58,25 @@ public class TileMapEditorWindow : EditorWindow
         // Input
         if (GUILayout.Button("Find Files with Windows explorer"))
         {
-            fileInputPath = UnityEditor.EditorUtility.OpenFilePanel("Select a File", savefilePath, "xml,json,text"); // 탐색기
+            fileInputPath = UnityEditor.EditorUtility.OpenFilePanel("Select a File", savefilePath, "xml,json,txt,xlsx,bin"); // 탐색기
+            // 경로 지정되면 파일명과 확장자 가져오기
+            if(fileInputPath.Length > 0)
+            {
+                fileName = System.IO.Path.GetFileNameWithoutExtension(fileInputPath);
+                fileExtension = System.IO.Path.GetExtension(fileInputPath);
+            }
         }
         EditorGUILayout.Space(10);
         if (fileInputPath != "")
         {
             GUILayout.Label(fileInputPath);
             EditorGUILayout.Space(10);
+            GUILayout.Label("FileName : " + fileName);
+            GUILayout.Label("FileExtension : " + fileExtension);
+            
             if (GUILayout.Button("Input") && fileType == FileType.None)
             {
-                fileType = FileType.Input;
+                stateGUI = StateGUI.Input;
             }
         }
 
@@ -88,23 +102,27 @@ public class TileMapEditorWindow : EditorWindow
             fileName = EditorGUILayout.TextField("FileName : ", fileName);
 
             GUILayout.BeginHorizontal();
-            if (fileType == FileType.None || fileType == FileType.Finish) // 작업중 다른 작업으로 이동 금지 코드
+            if (stateGUI == StateGUI.None || stateGUI == StateGUI.Finish) // 작업중 다른 작업으로 이동 금지 코드
             {
                 if (GUILayout.Button("Binary"))
                 {
                     fileType = FileType.Binary;
+                    stateGUI = StateGUI.Output;
                 }
                 if (GUILayout.Button("Txt"))
                 {
                     fileType = FileType.Txt;
+                    stateGUI = StateGUI.Output;
                 }
                 if (GUILayout.Button("Json"))
                 {
                     fileType = FileType.Json;
+                    stateGUI = StateGUI.Output;
                 }
                 if (GUILayout.Button("XML"))
                 {
                     fileType = FileType.XML;
+                    stateGUI = StateGUI.Output;
                 }
             }
 
@@ -116,32 +134,77 @@ public class TileMapEditorWindow : EditorWindow
 
     void OnInspectorUpdate()
     {
-        switch (fileType)
-        { 
-            case FileType.Binary:
-                break; 
-            case FileType.Txt:
+        switch (stateGUI)
+        {
+            case StateGUI.Output:
+                List<TileData> outputData = SaveTilemap();
+                OuputTilemap(outputData);
+                stateGUI = StateGUI.Finish;
                 break;
-            case FileType.Json:
-                break;
-            case FileType.XML:
-                List<TileData> data = SaveTilemap();
-                SaveXML(data, savefilePath + "/" + fileName + ".xml");
-                fileType = FileType.Finish;
-                break;
-            case FileType.Input:
-                LoadTilemap(LoadXML(fileInputPath));
-                fileType = FileType.Finish;
+            case StateGUI.Input:
+                List<TileData> inputData = LoadTilemap(fileInputPath);
+                MakeTilemap(inputData);
+                stateGUI = StateGUI.Finish;
                 break;
 
-            case FileType.Finish:
+            case StateGUI.Finish:
                 fileName = "";
                 fileType = FileType.None;
+                stateGUI = StateGUI.None;
                 break;
-            case FileType.None:
+            case StateGUI.None:
             default:
                 break;
         }
+    }
+
+    List<TileData> LoadTilemap(string _path)
+    {
+        string tileMapSaveExtension = System.IO.Path.GetExtension(fileInputPath); // 20230731 맴버 변수 사용 안하는 이유 -> 분리 시키고 싶어서
+        List<TileData> data = null;
+        if (tileMapSaveExtension == ".xml")
+        {
+            fileType = FileType.XML;
+        }
+        else if (tileMapSaveExtension == ".bin")
+        {
+            fileType = FileType.Binary;
+        }
+        else if (tileMapSaveExtension == ".xlsx")
+        {
+            fileType = FileType.Xlsx;
+        }
+        else if (tileMapSaveExtension == ".json")
+        {
+            fileType = FileType.Json;
+        }
+        else if (tileMapSaveExtension == ".txt")
+        {
+            fileType = FileType.Txt;
+        }
+
+        switch (fileType)
+        {
+            case FileType.Binary:
+                data = BinaryInOutput.LoadBinary(_path);
+                break;
+            case FileType.Txt:
+                data = TXTInOutput.LoadTxt(_path);
+                break;
+            case FileType.Json:
+                data = JsonInOutput.LoadJson(_path);
+                break;
+            case FileType.XML:
+                data = XMLInOutput.LoadXML(_path);
+                break;
+            case FileType.Xlsx:
+                break;
+            default:
+                Debug.Log("Dont know Extension -> " + tileMapSaveExtension);
+                break;
+        }
+        fileType = FileType.None;
+        return data;
     }
 
     public List<TileData> SaveTilemap()
@@ -171,13 +234,38 @@ public class TileMapEditorWindow : EditorWindow
         return tileDataList;
     }
 
-    void LoadTilemap(List<TileData> _data)
+    public void OuputTilemap(List<TileData> _data)
     {
-        if(fileName == "")
+        switch (fileType)
+        {
+            case FileType.Binary:
+                BinaryInOutput.SaveBinary(_data, fileName, savefilePath);
+                break;
+            case FileType.Txt:
+                TXTInOutput.SaveTxt(_data, fileName, savefilePath);
+                break;
+            case FileType.Json:
+                JsonInOutput.SaveJson(_data, fileName, savefilePath);
+                break;
+            case FileType.XML:
+                XMLInOutput.SaveXML(_data, fileName, savefilePath);
+                break;
+            case FileType.Xlsx:
+                break;
+            default:
+                Debug.Log("fileType is null!");
+                break;
+        }
+        fileType = FileType.None;
+    }
+
+    void MakeTilemap(List<TileData> _data)
+    {
+        if (fileName == "")
         {
             fileName = "Default";
         }
-        
+
         // Grid 컴포넌트가 있는 부모 게임 오브젝트를 찾거나, 없다면 새로 생성
         GameObject grid = GameObject.Find("Grid");
         if (grid == null)
@@ -208,16 +296,16 @@ public class TileMapEditorWindow : EditorWindow
             if (!targetSprites.TryGetValue(tileSpritesStr, out sprite))
             {
                 // 없으면 Load
-                int index = tileSpritesStr.LastIndexOf('_');
                 string folderStr = "Sprites/Map/Bunker/";
+                int index = tileSpritesStr.LastIndexOf('_');
                 Sprite[] sprites;
                 if (index != -1)
                 {
                     folderStr += tileSpritesStr.Substring(0, index);
                     sprites = Resources.LoadAll<Sprite>(folderStr);
-                    if(sprites.Length > 0)
+                    if (sprites.Length > 0)
                     {
-                        foreach(Sprite spr in sprites)
+                        foreach (Sprite spr in sprites)
                         {
                             targetSprites.Add(spr.name, spr);
                         }
@@ -228,7 +316,7 @@ public class TileMapEditorWindow : EditorWindow
                         continue;
                     }
 
-                    if(!targetSprites.TryGetValue(tileSpritesStr, out sprite))
+                    if (!targetSprites.TryGetValue(tileSpritesStr, out sprite))
                     {
                         Debug.Log("We cant find sprite -> " + tileSpritesStr);
                         continue;
@@ -245,26 +333,6 @@ public class TileMapEditorWindow : EditorWindow
 
             // 타일을 타일맵에 적용함
             inputTileMap.SetTile(new Vector3Int(tileData.position.x, tileData.position.y, 0), tile);
-        }
-}
-
-    void SaveXML(List<TileData> _data, string _filePath)
-    {
-        XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<TileData>));
-        StreamWriter writer = new StreamWriter(_filePath);
-        xmlSerializer.Serialize(writer, _data);
-        writer.Close();
-    }
-
-
-    List<TileData> LoadXML(string _filePath)
-    {
-        var serializer = new XmlSerializer(typeof(List<TileData>));
-        using (var stream = new FileStream(_filePath, FileMode.Open, FileAccess.Read))
-        {
-            fileName = System.IO.Path.GetFileNameWithoutExtension(_filePath);
-            List<TileData> loadData = (List<TileData>)serializer.Deserialize(stream);
-            return loadData;
         }
     }
 }
