@@ -8,7 +8,6 @@ TagManager:
   - ENEMY
   - PLAYER
   - BULLET
-  - GROUND
   - OBJECT
   - WALL
   layers:
@@ -50,6 +49,12 @@ TagManager:
     locked: 0
   - name: BACKGROUND
     uniqueID: 2969067547
+    locked: 0
+  - name: BACKGROUND_ALPHA
+    uniqueID: 936629705
+    locked: 0
+  - name: BACKGROUND_OBJECT
+    uniqueID: 2139311515
     locked: 0
   - name: BEFORE_EFFECT
     uniqueID: 3415694433

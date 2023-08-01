@@ -78,9 +78,12 @@ public class Tool_AllSpritePPUSetter : EditorWindow
                 if(importer.spritePixelsPerUnit != _ppu)
                 {
                     importer.spritePixelsPerUnit = _ppu;
-                    AssetDatabase.ImportAsset(assetPath, ImportAssetOptions.ForceUpdate);
                     ++currentSpriteIndex;
                 }
+
+                importer.filterMode = FilterMode.Point; // 필터 Off
+                importer.textureCompression = TextureImporterCompression.Uncompressed; // 압축 Off
+                AssetDatabase.ImportAsset(assetPath, ImportAssetOptions.ForceUpdate); // 적용
             }
         }
     }

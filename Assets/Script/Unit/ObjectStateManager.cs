@@ -40,7 +40,7 @@ public class ObjectStateManager : MonoBehaviour
         ccollider = GetComponent<CircleCollider2D>();
 
         rayDistance = GetComponent<CircleCollider2D>().radius + 0.01f; // 반지름 만큼 설정
-        groundLayer = PlayManager.groundLayer;
+        groundLayer = PlayManager.wallLayer;
     }
 
     void Update()

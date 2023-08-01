@@ -1,0 +1,7717 @@
+fileFormatVersion: 2
+guid: 1f96f44a7390e554ba77062d44a34251
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0a7465a34c33541af3e09b5d443897
+      internalID: 262262946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc7493ffd5ee5a46acec6035bfc1c66
+      internalID: -1728363729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729e727a1748185479b50eb8051adabe
+      internalID: -249561407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990db1ac08a4f0147ad31046f1fec932
+      internalID: -8918799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69915306ae96f5d4d97797b4558d13db
+      internalID: 1799132144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a71f77f4a67f04ead496868aa897d4
+      internalID: 81392225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704c5cf6c055c17458ff8a88b32bea8f
+      internalID: 2093754925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9db6070dc101f4f823e8e0189569df
+      internalID: -798751263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733e0c9c716d0ce48b6fa59bbaedf28b
+      internalID: -1892314193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb514d1af134f944ba28245d4e93422
+      internalID: 1531552762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae038ac3c09962409d55b78b8a3ca50
+      internalID: -536866216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1349502b2727446b3816a40eebe8c6
+      internalID: 1658470673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae429f3165e05414689c17ee6a76164f
+      internalID: -33974628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea1b762d669af740b3961e6624d1538
+      internalID: 51444337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfb8754bfb84d5438fcccdee44f96a5
+      internalID: 502784107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_15
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c10e0adb28eb54fad1f12695b3c0dc
+      internalID: 621563327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb75d64de57c018468990c78741df2c1
+      internalID: 200612475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_17
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0940f08a0f18abf45980647bf6c82f4d
+      internalID: 1518663390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12a5ad470dea0a419a884c657c3093a
+      internalID: 1295024949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_19
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d605e0d502f63af42a80b5fee1870a28
+      internalID: 1531616853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_20
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42011a66df728c9479f1c9561ea856cf
+      internalID: -913487365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_21
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2386b388310b467448e9256e3724dc63
+      internalID: 818084158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0876be27950b24ab61ede5bd9e1228
+      internalID: -588306639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8536143e570e274c95d9092b56b3d98
+      internalID: -1443794091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_24
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704357a7d0f11944eaa929aebde588df
+      internalID: 359958891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_25
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b4efac9507bb443b64083eb99924f2
+      internalID: -11172332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_26
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c042aed565de64480b065875f45046
+      internalID: -608243492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_27
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b514a50a0cb2a474d9f55e2279238576
+      internalID: -1960042655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_28
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898775eb3a2df094082dbd46a7534e6c
+      internalID: 2070159913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_29
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b696f0cc4680edc48bff5460bde5d315
+      internalID: -1982642800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_30
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7829d4aa02a82744ea747c1f21efdeba
+      internalID: -1018455985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_31
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c34a6439a7eff4cad5d6056af5f6d7
+      internalID: 1422766595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_32
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8196a55303577ec4f996953a92795457
+      internalID: -1825670622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_33
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5acd2ff1867bf45a0321d7c6f5c872
+      internalID: -857041500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9361f9075ebdb8848972afd5c4ed0707
+      internalID: 696513396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_35
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1d7d13b4dd8644c9267d66e55b351a
+      internalID: -1650417807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_36
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0160f7aa7e9f5741be7c0837aaba475
+      internalID: -756635212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff89257158955fe43a62db26e291d6fa
+      internalID: 127775383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_38
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709265e3d5756f4499b3403ff0a2f91f
+      internalID: -386479900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_39
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd56c696956b719459dce5b591dd41f7
+      internalID: 710929734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_40
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c97f59635423b247a9c20bd26a769ee
+      internalID: -1086253883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9691d01f55e0e44aa6f2258c955dc7f
+      internalID: -53985787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd2ac9ef221c76468ffc1d540d41f4e
+      internalID: -776009098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_43
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92477fd9afd7bbd42804a6b6317caa0f
+      internalID: -945797954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_44
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39f7709ec8037b47bed1479fa968d1b
+      internalID: -482388423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_45
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4d70afba8e62f41a0e4ec4a32ed09a
+      internalID: -1508266757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_46
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c7bd0c89679f249ac41d290546c6a0
+      internalID: -38154445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965fd9b386c5dab4ebe2b587de4ab02d
+      internalID: -201526250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_48
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860f4a5ca521c414db90895beb4e7a92
+      internalID: 145617237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_49
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b5247ec64098343ac333bcc80b73c8
+      internalID: -2075193280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_50
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4470f1ebbfef1488ff65b6c6396d9e
+      internalID: 1018573428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_51
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ba86935745bf042b88ee8b5a65ffed
+      internalID: 776636424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_52
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5027ff86c7c83b04885515555106b24e
+      internalID: 724209608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_53
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0073dbdd66ae87d458d43e9f1b0f24a6
+      internalID: -435443810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_54
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc5f6e33619e2445b56b22977771ea9
+      internalID: 696762825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_55
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a7a1c6b1a6899428aecb39a1bd9781
+      internalID: 328767724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_56
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a67344eec80e845ae70760248cc2cd
+      internalID: 1093102397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_57
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35873a4dcf330b144b6933dc33450f6c
+      internalID: -1804279284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_58
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e55a40b754f8864aa333e0cdeb59e56
+      internalID: -5728000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_59
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c8a83634697544ca337d8a270b5bf8
+      internalID: 2053446496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_60
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbc998c6c72c8b4e922ba333ba6a228
+      internalID: 872011230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_61
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d90a6bd62b2c94a91b74534a286d2e
+      internalID: -146795874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_62
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953ad18d05e1c18419fd9148da892b6b
+      internalID: 745959661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_63
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0eb090675a77f49b2ae19183390f7a
+      internalID: 837598685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_64
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f3d8f807db3a14fb1f9483fa4084a1
+      internalID: -1974887307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_65
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700eeda13f79849498b4d0763d386eac
+      internalID: -1610385442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_66
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8926a46cdfe7f434384c0b1c2ae0e285
+      internalID: 1715302712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_67
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 194
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f29f211e504afc4b856b1d2e95a69c6
+      internalID: 1155781169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_68
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ac19093b4eb6443870ed3748ba54df
+      internalID: 1641444737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_69
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac06b54bf5785541b59cc71064aa4ee
+      internalID: -1607347262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_70
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b0b581b3ab83b4398e0b584775b216
+      internalID: -294486206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_71
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a35589ef5842d479df46b745c2f928
+      internalID: -748764196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_72
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63df28e8c5d66ad4485370910d223b58
+      internalID: -763187914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_73
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a2dc23f33da87438a581d145c7ad3b
+      internalID: 1409071885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_74
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdd7b5c619712742a016efc86a6f9a4
+      internalID: -1993034805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_75
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467423dd3f99ece41a60ae30fa974861
+      internalID: -948893571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_76
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcfaff97c297c94694a61740ddb9aa0
+      internalID: -2038137300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_77
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c43725e73d20479cac6a2d8fde83d
+      internalID: -543158044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_78
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c43a5f7d4095f468ebb20967cccf46
+      internalID: -493765825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_79
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc794367decdc841b1b664c67156eee
+      internalID: 1910436971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_80
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af7c31ef008ecd479dfd8ba6a760dc6
+      internalID: -454900185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_81
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f630247d79fd5774faf2771a597c121d
+      internalID: -325417958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_82
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dfb6fb31df8764f92dc9f406dbd719
+      internalID: -214527561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_83
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b42284eab909e04cac20873815455ce
+      internalID: 1075499347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_84
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a2440b519a8b34db16e612d4bfe81a
+      internalID: -1785648127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_85
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e94ee6d75bbda542b22b725b42b6cca
+      internalID: 129050906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_86
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6a22e02b4a38047ade7eb0bc3213a1
+      internalID: -1837389622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_87
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42e22caca269cb45b413adbd6b9e5bc
+      internalID: -623117652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_88
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f540df99c0af124bb87b90fecbff090
+      internalID: -1917788216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_89
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1787ebb1c2820a84e81391cb2bbe64f8
+      internalID: 869238917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_90
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ceb551a5975e08419a3dabcdb9338fe
+      internalID: -1440116021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_91
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1674b5cb8e8301e4995c840aa73ddb5d
+      internalID: 681758594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_92
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b231c06b51a9694583bc4a4ad3ea1b4
+      internalID: -1976342987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_93
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f849012fe6db684d9b3d91e594a2075
+      internalID: 1739073497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_94
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c4bd421c77a8b42a361cc93b88c7a8
+      internalID: -1954618856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_95
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9794a84a745bbe745abd0ea42e8bb1a4
+      internalID: 702133553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_96
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3628b8d30fbcf3d469e5a89b02510e48
+      internalID: -1483278375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_97
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537299975cfebd748ba9a8d41ec61a14
+      internalID: 97011661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_98
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77260117eb7f9d54784f2572d7bc8566
+      internalID: -1859199421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_99
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68849b546b662494895ef59cedc94893
+      internalID: -767980450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_100
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72486a306c491794a90db2b9e76eb47a
+      internalID: 157402713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_101
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1d6df0dcd39b546b5f8d4977c2fc73
+      internalID: -303214877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_102
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e99ef036d2b3a408c82e00bf97b2bf
+      internalID: 27399944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_103
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16605955d3c5a84aa1dd40b2a966283
+      internalID: 409593119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_104
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f548df5f1fa6a6478a3876b07eeb1fc
+      internalID: -1446865564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_105
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81a8ce7c63aea448a64a959e01e0287
+      internalID: 1878400296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_106
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5bc030b45850142a7f010a1b10ab91
+      internalID: 5414715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_107
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4683cc735a9d31041bc3ea9d3cf2423c
+      internalID: -91878497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_108
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4d6de83c12ce54a9dfac3fd8283892
+      internalID: 523221982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_109
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f88c83df18b3d40823cda2d0e8c0d3
+      internalID: 863267648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_110
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8e18118d37fbb469e0f94046bc57a4
+      internalID: -1454668953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_111
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c0ad5073a3c974b9ba9e9a4101c0d6
+      internalID: -613291818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_112
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a40d71fbd117a54f9db837c9221d416
+      internalID: -341201655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_113
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1c88b02e71d4747a8e782c7df609f1
+      internalID: 1528532222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_114
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ce8178cfee97c439312a0a73e774ff
+      internalID: 1285507174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_115
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d0959396e5ffc4a8fb68c7dd0860be
+      internalID: -1170018954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_116
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9712ad7722c3eac4dad054cca93d2ca8
+      internalID: -578492700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_117
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688999bf6bba8e74f827740c9630d962
+      internalID: -2120311486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_118
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd11934ce07c9c49baab170919bc563
+      internalID: 1232053994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_119
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2611e204c64976044916e3db616205db
+      internalID: 1664877204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_120
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5ff572b0b483245b5a5fd5022e1ee7
+      internalID: -231244986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_121
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4092a319fec6b6745aa7935c9a65863b
+      internalID: 1771010907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_122
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b4e11e09832554c9f587d9f4457744
+      internalID: -231370061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_123
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980a836e3a8ce1a429ea81ce7127eb41
+      internalID: -2023692085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_124
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef881b5e22f57145afea0226e42aeb7
+      internalID: 1816108555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_125
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d04f20c7695130419999b0fe59fbce1
+      internalID: 1757045316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_126
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e868d6b3ffcb143b7a05dac3616522
+      internalID: -1631202992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_127
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320858965cc1ead42aea015ac2eb8a27
+      internalID: 1223846388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_128
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25572cd9eca01449979dc78a3227638
+      internalID: 1127580824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_129
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d192d4fea6c596346a652607785c77d0
+      internalID: 237058586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_130
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0130507153d60874da766a940c2cb81d
+      internalID: -1540294180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_131
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d9f592777af194d887bdd1778cc29c
+      internalID: -1586724875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_132
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1531d3f0e60c8a46a92c82438abda3a
+      internalID: -131838446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_133
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d424828716b7ecb41ab9579fd71d4f13
+      internalID: -1081493048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_134
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69830ba678bb2ae46af20e86d52d41d0
+      internalID: -336066086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_135
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba1c394d6684854da76ea9a2848078f
+      internalID: 391524995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_136
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375f4c4d98c4ca345a3f9692a5bd1a5e
+      internalID: 1932137309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_137
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4047bce93d6c1954d9f18512ee4fef86
+      internalID: 2051337856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_138
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ece7b6096cebd84a8576e3f7c4701af
+      internalID: -764494327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_139
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7732fae6c84b9742b8618c20c9c6273
+      internalID: -1084250064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_140
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb6beabde5ef3c4f84ac3a6c78dd2c0
+      internalID: 1781819326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_141
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28c71810e7a8e44c9fbfbfc5743588b
+      internalID: 111825403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_142
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8912ef9bcd9fa5945a6402ef6556feea
+      internalID: 1287056683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_143
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba7ae68c0c03654cae4d560896f29e2
+      internalID: 258770729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_144
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97220de81d8098d49b7bad1e07f1ef8b
+      internalID: 1328418889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_145
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a845b6f8bfd661a41b20e915e82f7b80
+      internalID: 463460874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_146
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7037c2aa58a61344d9de126131925702
+      internalID: 1385029388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_147
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bada71b3abfdb42a36c0783b89105d
+      internalID: -1419580940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_148
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b237bf382b50f4f9d932fa918175ed
+      internalID: 639724391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_149
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804a4826c265c154a8eee8e8291cdb61
+      internalID: -80674956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_150
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58e3a50962827645befb5c24283a3c2
+      internalID: 667597350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_151
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 146
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f4d487380b3b449a76998744afd96c
+      internalID: 6609258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_152
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e7402ae3746df42a8eb4a0c101d19d
+      internalID: 1561645913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_153
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b9134883096b24185acbb73c102e50
+      internalID: -589268196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_154
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba47197b6b022b4a8cfedc3959e406e
+      internalID: 402930906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_155
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fef71b96ddac3a409026ef5d905c9cf
+      internalID: -299693645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_156
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e827eccf08df3094fb6e60eff012abe7
+      internalID: 1238678018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_157
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b664a7d9436eaf741a66616c2d7fedca
+      internalID: 1543622132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_158
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def2c7fdaebb1e946b9f36b5b6c9baf2
+      internalID: 367356566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_159
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d855f4a8977364bb58ac8d593aa0fc
+      internalID: 1466138072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_160
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf61b3eafbaa8f43a7efc86e1ca981a
+      internalID: 2107518056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_161
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b727eab2d29bd4981aa29d9c4fde1d
+      internalID: -1213991616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_162
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2776c3ca85adbad478c09d2541ba13d6
+      internalID: 603753885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_163
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfec9025f43521547a41b97f47fd4c33
+      internalID: -1577660783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_164
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bfe15680231e644b7db93cccf223f9
+      internalID: -618877356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_165
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f873d8b325b676c4f836ae0d5629e9e7
+      internalID: -35765937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_166
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0711ceed27191f94ab6cbdef5ed139e9
+      internalID: 930668549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_167
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6cdc6522858f04e96515664bdf04de
+      internalID: -530233898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_168
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18985a1eee78fad419582c8ab57f2936
+      internalID: -1194777403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_169
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b685ae21ffa3ef24ca3dd5148677c5c5
+      internalID: 208172836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_170
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9561e2743512d488873b2745f4afe3
+      internalID: 484319650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_171
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69332000307bb7944b7d380049db7898
+      internalID: 528196733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_172
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b622ff46a7da68941b964134b7807320
+      internalID: -240355237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_173
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65dce3e492182f4593f64cbfc8bdbc5
+      internalID: -1088268563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_174
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4b1e21efa0f304cb5512e35ee757c4
+      internalID: -1564154169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_175
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fca1f76b1029684ebaf16e5f7928382
+      internalID: -1741193529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_176
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1d3a098c7d5dd48856dc45ce96c3cd
+      internalID: 550440785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_177
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9512d06c5c78c41b7d2bb5f5ff0e71
+      internalID: 1498239381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_178
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3acb22073a84d44840a7b142fc755a
+      internalID: 855534988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_179
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6d2e630be1dc349860eac7dbafcc9d
+      internalID: 1594182289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_180
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a39136369982746a28dcdd33d0e810
+      internalID: -1591343565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_181
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c593c00f3a8e618479841b331b96642d
+      internalID: -2041084043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_182
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b47bcfdf62fc74299c541313c42300
+      internalID: -839148801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_183
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9a1181bb456294b80759d46e5bc95d
+      internalID: -1592613900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_184
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca82f71d0b91d444b9095bae32b62683
+      internalID: -1595020040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_185
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab59c375a14f7834e9f73ee04d3d98fd
+      internalID: -545630454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_186
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bb905e994e3e746b02a0bedd2545db
+      internalID: -959812780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_187
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9951aaaddc5654aaaccf9271e9ccfe
+      internalID: -157730650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_188
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f79097e2c2ff2a4795e54252f38bfe7
+      internalID: 796916531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_189
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb5e441a7138a84eb7df307b17c5500
+      internalID: -308430785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_190
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832e69c55c8bc3744982e16478dec9bb
+      internalID: -1809926002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_191
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec53549c45087dc4db82935cc7bf8493
+      internalID: -1645797977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_192
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e75cdc93d21694787f0b706fa6834c
+      internalID: 714178086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_193
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8eb8b9976fea248b41f5d89525aa6d
+      internalID: -212180742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_194
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b4244581559ab4f940b71380b56e5a
+      internalID: 822049577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_195
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c25b4575d70824fbfa25d204152872
+      internalID: 831608455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_196
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79deff98902205141ab45e91a0697f77
+      internalID: -1906545195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_197
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91a3972762ce5b4fb1dc28add115ac9
+      internalID: -1313644437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_198
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c90d91c31fa394596079e0a0dd73e5
+      internalID: 913764704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_199
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689b2dc4df618174db77a6d5da6cc90f
+      internalID: 1103637263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_200
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a5939eba0666045930c54957bd0753
+      internalID: -1243466702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_201
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f19e103d7f3394994d94b1b1e5867e
+      internalID: -1450477182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_202
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d1cfe49a2c8034c9cce562b24e16de
+      internalID: 922326148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_203
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9072f1ee4c69f4c84652469a7cadf6
+      internalID: -582933424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_204
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde745748bedd8143bdce42d6919d22f
+      internalID: -991349283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_205
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea1485ba2cd5fb43a7fc6becbb49524
+      internalID: -1717686356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_206
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8524aa1aedd77f14abf791842d717481
+      internalID: 327393302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_207
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a02b60c7ff03c49a971e969bd00473
+      internalID: -1036123601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_208
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79316c483b205c48b1f20c7e4afa13f
+      internalID: 576090697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_209
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20484c0362804a241952a5e5539e385e
+      internalID: -1564193460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_210
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce8e1d7464396442b3d01d89263e5cd
+      internalID: 1240262335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_211
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd55526bbdd5e00468cddadff9ef4d62
+      internalID: 269017045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_212
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596b6657d12724143b905e28dc9955cf
+      internalID: 394212654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_213
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cfbb674771b534d903fa7f73111fe7
+      internalID: 424065905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_214
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4f57932b7f68648a6e8e7f3e7c08be
+      internalID: 575297874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_215
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ad04aad9b0b4c47b5258fd1d8f803b
+      internalID: -1064924071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_216
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda5259e3064bc04282d4d022d9528e9
+      internalID: -412162571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_217
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67592c4dca340144dbc0e640cf447bb4
+      internalID: -1046357545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_218
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a54b4e5da664b498e3e07e5a878455
+      internalID: 1327633432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_219
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38a5c7cedac0da47895be043548766a
+      internalID: -1295562836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_220
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778e7fcf98e263c4d9915e5c57e0d4c8
+      internalID: 248815406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_221
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b650b8369387a9746af5cf2bbbed9353
+      internalID: -620155229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_222
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5c9e0905266d842b6dc4d45736cf08
+      internalID: -1793614231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_223
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78990552ca2346c41bfbdd9d30f4ecbf
+      internalID: 629363569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_224
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fe7ad5a4b07ed4698b114e43c82e67
+      internalID: -54543666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_225
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a406281dcb4c5b429ff17c6d82ed973
+      internalID: -985306385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_226
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a67dfb372c82245becff7e41e7d272
+      internalID: -905290268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_227
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec69d1b8ee989549bfe35a8d3ea1593
+      internalID: 752898119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_228
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0041f6fe9a3150d4188cb6b43e1dc7db
+      internalID: 1467767655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_229
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351dd256ef002ea42aa6847f98933362
+      internalID: -851553374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_230
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9840cb8620b204bada028829c7e5d6
+      internalID: 2009531224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_231
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6db5b78c37a2b48b36e646d1d21981
+      internalID: 2134036241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_232
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2eaba27909b0f64386a416088d70be1
+      internalID: 1269344769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_233
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd917c4f80e6ea46a73a90d50b48b61
+      internalID: -1211061204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_234
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6792de045aa1304eacf21f11d58c903
+      internalID: -500931252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_235
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff10ca740511feb43a3a2da2ed0bdaa8
+      internalID: -1617036982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_236
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae46cfc91d1697746aa6a7b2f1b93ffb
+      internalID: 803987810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_237
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fa39a47f300c14d9d959c4f64dd34c
+      internalID: -96452098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_238
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d2dc4ff78e84544884bdd85ade55df
+      internalID: -1005599896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_239
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf15542f23eb9b4998b045263282ab6
+      internalID: -1357642186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_240
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926a5c126d8595b48b9338e5f89850a4
+      internalID: -1924494884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_241
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dd2a6f75328ee4a884066721207a7b
+      internalID: -700574138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_242
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0116d96f199831a45bd5e7588f4f25b7
+      internalID: -1420884000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_243
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0267fd159af63d149bc68df0a9c4f9d8
+      internalID: 566029894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_244
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0851610bdeb5b164c91de7314b919ef0
+      internalID: 969044645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_245
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5df44357103fb7428aa00e9175f5752
+      internalID: 1738235795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_246
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f091de6301f75fc43a739f15d42ac2c9
+      internalID: -1551405751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_247
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2771b6962e39914e9fb1e032d1d356e
+      internalID: 990607435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_248
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b4d167228dac74e9de18227a4eb892
+      internalID: 2109404519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_249
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865c4347eea27a84db7b162bc246e2d5
+      internalID: 1797712155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_250
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ef3649864b3aa4da3dab7ef1757228
+      internalID: -1674930730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_251
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c6aaed7a852924e8e793169407c823
+      internalID: 2035001783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_252
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1618a66bb629184bbe0df81dd83372f
+      internalID: -1305898550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_253
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed3ee262c4362b47bb8cb46e2461d04
+      internalID: -864300659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_254
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35633ab0d3bdda4d920a1abdb20ecbc
+      internalID: -1800982801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_255
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf808df28ed2ad345994738a56f00ea7
+      internalID: -1845497213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_256
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2214cdd23993e4ba664e3f7132fac5
+      internalID: -2053108125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_257
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b98df053a606a4cbd70ea0da36503a
+      internalID: 290027721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_258
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6d8afa8ad50014cb654f24fee04858
+      internalID: 2060709288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_259
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f12bf78e5fb5e14db055feac0b17085
+      internalID: -1790628060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_260
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fc23b86bebb26429a16ee119618329
+      internalID: -2133481167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_261
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43a157ff01c1244a8baec4e2cfff475
+      internalID: 385220677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_262
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676349b936a4fed47ab96962aa111665
+      internalID: -2132941844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_263
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e6b6e1d70ac5b4faa0ad65017413bc
+      internalID: -1500953244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_264
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aac67b881342140a70454f94f854fd
+      internalID: -789745376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_265
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706f893817cfb0946ac7c27415f3616b
+      internalID: 1920863845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_266
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0e3907e84ab4e48b458dd903bc079c
+      internalID: 1840643292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_267
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7dd89aa6e935e49ac1771281c08013
+      internalID: -1099348574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_268
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e830c3f407fe594296176b3ad8dcc62
+      internalID: 1998639532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_269
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e609133a0fec145863f34d0005fc92
+      internalID: -123193965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_270
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278d949216ed9304abd80dfb8c70f394
+      internalID: 1012723417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_271
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f748fcf3887995242a16d596bf4bcc88
+      internalID: -1031956478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_272
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46ea9476fbe3074a938e5ebc3fbb052
+      internalID: 1762934884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_273
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b83d233b191400439e040c746538046
+      internalID: 66900349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_274
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ffffda9d206b34593f26b98756e06c
+      internalID: 1741058550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_275
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372b532ac75e3234ab7deff269d84181
+      internalID: -193331961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_276
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3c8ceafe984cc448c4bc2d805cf801
+      internalID: -1783636512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_277
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfbf7a202965c640907eb28eb7da335
+      internalID: 174930848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_278
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6197f920f23f04ea54e0b2fcfd35c0
+      internalID: -804608060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_279
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5709a8cf46951034eaa38e60ffe06d4b
+      internalID: -1501507252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_280
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69609ab06ecbe3f43a21b611ec90c584
+      internalID: 1158348337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_281
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd2d56a62e45ef41923d4c6ad89b8bc
+      internalID: 593491170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_282
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3073076380412f3429ea6b18b9eaaddf
+      internalID: -1385145562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_283
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25044a727933a874ab3168504069dd78
+      internalID: 2074915011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_284
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1251615b0e3675f459daa238e3f226c7
+      internalID: 1776090738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_285
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c09c78b36f391f4a93e6c2f96d5d269
+      internalID: 1304599060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_286
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9394991ccc971ab4aa4931e111ecab0a
+      internalID: 1057407010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_287
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7331460a2bb71469957ddd741d48c3
+      internalID: 225942082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_288
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3309b15383594bf429d0e5f4549a47b9
+      internalID: 1967973240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_289
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c3288b83947bc4db4a05eba4892946
+      internalID: -1886069902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_290
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f4fb3272c53a846ab9508454e8c6c8
+      internalID: -118765428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_291
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62286ea24e060db4dbe8e52de6fc72b3
+      internalID: -1171868195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_292
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbb677b45447994daddddc03b12ad7e
+      internalID: 1252541972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_293
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ecf49ec053c404ab97cc616d5d4a1e
+      internalID: 830354327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_294
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b90bcef44ab19042a085108485ea4f0
+      internalID: -1213306061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_295
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e1ee69ee21b1e45acea17113aa577b
+      internalID: 526647696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_296
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee349fe5e5d9f0d4094193f9c72c019d
+      internalID: 1143744676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_297
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcdc3b13d4b6e64cb39b76df6100fdf
+      internalID: 1778988338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_298
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29920bf94629d5a498b07559d973589a
+      internalID: -2057777874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_299
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094dc4f4653bd1844b10cd091919d1b8
+      internalID: -23991773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_300
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834ddf9387480924193efac397f5d7f8
+      internalID: -1883024380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_301
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cef32234b02cdd4e8f7c009e71d4eca
+      internalID: -365386426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_302
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b0128031424c84f9adcfcc1aee1ecc
+      internalID: 1956415297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_303
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5125cf95e3dad68428f891c18c8ae538
+      internalID: 810579237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_304
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b3397db52561242845b664c6f13693
+      internalID: -1951748144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_305
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b895706905ebd4db812c88b68b35ea
+      internalID: -1362435507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_306
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a216129c17bcfb439dcf513faaa9090
+      internalID: -1153411268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_307
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57f02d51169cd842a1a0f71e35b279c
+      internalID: -1500945471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_308
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a519c73ce08914a8be14c19144805c
+      internalID: 1548140746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_309
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ca03be2aa8a9f4794e2b3cee14bd3f
+      internalID: 71788551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_310
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c2c1cc3f1074948865d65b36ba0c99
+      internalID: -449419079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_311
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907b598b5c859f94c9c54dabbfe243f7
+      internalID: -1637538553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_312
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe23253dfda26748b90c8bbffe2a559
+      internalID: 715463817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_313
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b104a70017981ad40a0a3b58ad3ca441
+      internalID: -442541020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_314
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330a64b2efbf7454aa17fc7b42aa8975
+      internalID: 36166999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_315
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33196baf00d276f4e88d828b3c227cd5
+      internalID: 358196130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_316
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50098a828bf8fbd40bee1dd021f544f2
+      internalID: 1298794115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_317
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89efb97da1c36bd45a1f485edeea20ab
+      internalID: -925644418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_318
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b0540e9f76270439eefbbcd885ccd8
+      internalID: 56638934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_319
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09001900644bcd4409891e26bbd6c1a1
+      internalID: -261931891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_320
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffddaf1633a6903449f502bce24960f2
+      internalID: 769483498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_321
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d3e89bbc717454eb279c1593d8aef1
+      internalID: -888755559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_322
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebf84cf5378d394a964a5ebd6f523de
+      internalID: 2106017285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_323
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7acb692755eae54c8cb75cce35c0d2c
+      internalID: -353256055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_324
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3af12b9bb13144ab621b26168c868a
+      internalID: -189617628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_325
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05204357f48cf1447b975b7b247e6643
+      internalID: -589240618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_326
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68c77c22abe59d4197f0b77988460b5
+      internalID: 821970277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_327
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abe825352f0df8419d9c78d6e475ddd
+      internalID: 165827318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_328
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f30fe7b87c07974295fcfac8be3a4d3
+      internalID: -1605582897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_329
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05a7392e6126694282d9b2aeac357c4
+      internalID: 1153994908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_330
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d92e10bc300084994b0368e58e8320
+      internalID: -2102079827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_331
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc7e8ec0525262469564cf284648e16
+      internalID: -300979983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_332
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca0e7ffc8ba6554287b04d37022b8cf
+      internalID: -2109775962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_333
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313c57e3517fac84b951b3f5d21c2f05
+      internalID: 1496257600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_334
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d6e9a83b6f0844a9356ebfedb10133
+      internalID: 907428200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_335
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c626cd905d86774c860c7639a7682cd
+      internalID: 961259115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_336
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe9526fe18e9f4408d9a55b052befb2
+      internalID: 2114779671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_337
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3957583e7e9c61446bbe526c2cdbc95f
+      internalID: 195194348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_338
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31915f6cee685934b9e7390ef96426e4
+      internalID: -574288423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_339
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3f2febc994e354790f279d8852a311
+      internalID: -1418114739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_340
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33a19d625951b144a60bcac4e79bab8
+      internalID: 1496166923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_341
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3970f1cacfaccb244a97a96a0a454301
+      internalID: 1414623631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_342
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77abb36ad3023da4d874b55cf455ed75
+      internalID: 1052697048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_343
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd14259b695d69b42a4118d0fb5e90b5
+      internalID: -1776435336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_bunker_foreground_alpha_0_344
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089e2fefd4ffcc54abd80665eeb80078
+      internalID: 65120089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bg_bunker_foreground_alpha_0_0: 262262946
+      bg_bunker_foreground_alpha_0_1: -1728363729
+      bg_bunker_foreground_alpha_0_10: -536866216
+      bg_bunker_foreground_alpha_0_100: 157402713
+      bg_bunker_foreground_alpha_0_101: -303214877
+      bg_bunker_foreground_alpha_0_102: 27399944
+      bg_bunker_foreground_alpha_0_103: 409593119
+      bg_bunker_foreground_alpha_0_104: -1446865564
+      bg_bunker_foreground_alpha_0_105: 1878400296
+      bg_bunker_foreground_alpha_0_106: 5414715
+      bg_bunker_foreground_alpha_0_107: -91878497
+      bg_bunker_foreground_alpha_0_108: 523221982
+      bg_bunker_foreground_alpha_0_109: 863267648
+      bg_bunker_foreground_alpha_0_11: 1658470673
+      bg_bunker_foreground_alpha_0_110: -1454668953
+      bg_bunker_foreground_alpha_0_111: -613291818
+      bg_bunker_foreground_alpha_0_112: -341201655
+      bg_bunker_foreground_alpha_0_113: 1528532222
+      bg_bunker_foreground_alpha_0_114: 1285507174
+      bg_bunker_foreground_alpha_0_115: -1170018954
+      bg_bunker_foreground_alpha_0_116: -578492700
+      bg_bunker_foreground_alpha_0_117: -2120311486
+      bg_bunker_foreground_alpha_0_118: 1232053994
+      bg_bunker_foreground_alpha_0_119: 1664877204
+      bg_bunker_foreground_alpha_0_12: -33974628
+      bg_bunker_foreground_alpha_0_120: -231244986
+      bg_bunker_foreground_alpha_0_121: 1771010907
+      bg_bunker_foreground_alpha_0_122: -231370061
+      bg_bunker_foreground_alpha_0_123: -2023692085
+      bg_bunker_foreground_alpha_0_124: 1816108555
+      bg_bunker_foreground_alpha_0_125: 1757045316
+      bg_bunker_foreground_alpha_0_126: -1631202992
+      bg_bunker_foreground_alpha_0_127: 1223846388
+      bg_bunker_foreground_alpha_0_128: 1127580824
+      bg_bunker_foreground_alpha_0_129: 237058586
+      bg_bunker_foreground_alpha_0_13: 51444337
+      bg_bunker_foreground_alpha_0_130: -1540294180
+      bg_bunker_foreground_alpha_0_131: -1586724875
+      bg_bunker_foreground_alpha_0_132: -131838446
+      bg_bunker_foreground_alpha_0_133: -1081493048
+      bg_bunker_foreground_alpha_0_134: -336066086
+      bg_bunker_foreground_alpha_0_135: 391524995
+      bg_bunker_foreground_alpha_0_136: 1932137309
+      bg_bunker_foreground_alpha_0_137: 2051337856
+      bg_bunker_foreground_alpha_0_138: -764494327
+      bg_bunker_foreground_alpha_0_139: -1084250064
+      bg_bunker_foreground_alpha_0_14: 502784107
+      bg_bunker_foreground_alpha_0_140: 1781819326
+      bg_bunker_foreground_alpha_0_141: 111825403
+      bg_bunker_foreground_alpha_0_142: 1287056683
+      bg_bunker_foreground_alpha_0_143: 258770729
+      bg_bunker_foreground_alpha_0_144: 1328418889
+      bg_bunker_foreground_alpha_0_145: 463460874
+      bg_bunker_foreground_alpha_0_146: 1385029388
+      bg_bunker_foreground_alpha_0_147: -1419580940
+      bg_bunker_foreground_alpha_0_148: 639724391
+      bg_bunker_foreground_alpha_0_149: -80674956
+      bg_bunker_foreground_alpha_0_15: 621563327
+      bg_bunker_foreground_alpha_0_150: 667597350
+      bg_bunker_foreground_alpha_0_151: 6609258
+      bg_bunker_foreground_alpha_0_152: 1561645913
+      bg_bunker_foreground_alpha_0_153: -589268196
+      bg_bunker_foreground_alpha_0_154: 402930906
+      bg_bunker_foreground_alpha_0_155: -299693645
+      bg_bunker_foreground_alpha_0_156: 1238678018
+      bg_bunker_foreground_alpha_0_157: 1543622132
+      bg_bunker_foreground_alpha_0_158: 367356566
+      bg_bunker_foreground_alpha_0_159: 1466138072
+      bg_bunker_foreground_alpha_0_16: 200612475
+      bg_bunker_foreground_alpha_0_160: 2107518056
+      bg_bunker_foreground_alpha_0_161: -1213991616
+      bg_bunker_foreground_alpha_0_162: 603753885
+      bg_bunker_foreground_alpha_0_163: -1577660783
+      bg_bunker_foreground_alpha_0_164: -618877356
+      bg_bunker_foreground_alpha_0_165: -35765937
+      bg_bunker_foreground_alpha_0_166: 930668549
+      bg_bunker_foreground_alpha_0_167: -530233898
+      bg_bunker_foreground_alpha_0_168: -1194777403
+      bg_bunker_foreground_alpha_0_169: 208172836
+      bg_bunker_foreground_alpha_0_17: 1518663390
+      bg_bunker_foreground_alpha_0_170: 484319650
+      bg_bunker_foreground_alpha_0_171: 528196733
+      bg_bunker_foreground_alpha_0_172: -240355237
+      bg_bunker_foreground_alpha_0_173: -1088268563
+      bg_bunker_foreground_alpha_0_174: -1564154169
+      bg_bunker_foreground_alpha_0_175: -1741193529
+      bg_bunker_foreground_alpha_0_176: 550440785
+      bg_bunker_foreground_alpha_0_177: 1498239381
+      bg_bunker_foreground_alpha_0_178: 855534988
+      bg_bunker_foreground_alpha_0_179: 1594182289
+      bg_bunker_foreground_alpha_0_18: 1295024949
+      bg_bunker_foreground_alpha_0_180: -1591343565
+      bg_bunker_foreground_alpha_0_181: -2041084043
+      bg_bunker_foreground_alpha_0_182: -839148801
+      bg_bunker_foreground_alpha_0_183: -1592613900
+      bg_bunker_foreground_alpha_0_184: -1595020040
+      bg_bunker_foreground_alpha_0_185: -545630454
+      bg_bunker_foreground_alpha_0_186: -959812780
+      bg_bunker_foreground_alpha_0_187: -157730650
+      bg_bunker_foreground_alpha_0_188: 796916531
+      bg_bunker_foreground_alpha_0_189: -308430785
+      bg_bunker_foreground_alpha_0_19: 1531616853
+      bg_bunker_foreground_alpha_0_190: -1809926002
+      bg_bunker_foreground_alpha_0_191: -1645797977
+      bg_bunker_foreground_alpha_0_192: 714178086
+      bg_bunker_foreground_alpha_0_193: -212180742
+      bg_bunker_foreground_alpha_0_194: 822049577
+      bg_bunker_foreground_alpha_0_195: 831608455
+      bg_bunker_foreground_alpha_0_196: -1906545195
+      bg_bunker_foreground_alpha_0_197: -1313644437
+      bg_bunker_foreground_alpha_0_198: 913764704
+      bg_bunker_foreground_alpha_0_199: 1103637263
+      bg_bunker_foreground_alpha_0_2: -249561407
+      bg_bunker_foreground_alpha_0_20: -913487365
+      bg_bunker_foreground_alpha_0_200: -1243466702
+      bg_bunker_foreground_alpha_0_201: -1450477182
+      bg_bunker_foreground_alpha_0_202: 922326148
+      bg_bunker_foreground_alpha_0_203: -582933424
+      bg_bunker_foreground_alpha_0_204: -991349283
+      bg_bunker_foreground_alpha_0_205: -1717686356
+      bg_bunker_foreground_alpha_0_206: 327393302
+      bg_bunker_foreground_alpha_0_207: -1036123601
+      bg_bunker_foreground_alpha_0_208: 576090697
+      bg_bunker_foreground_alpha_0_209: -1564193460
+      bg_bunker_foreground_alpha_0_21: 818084158
+      bg_bunker_foreground_alpha_0_210: 1240262335
+      bg_bunker_foreground_alpha_0_211: 269017045
+      bg_bunker_foreground_alpha_0_212: 394212654
+      bg_bunker_foreground_alpha_0_213: 424065905
+      bg_bunker_foreground_alpha_0_214: 575297874
+      bg_bunker_foreground_alpha_0_215: -1064924071
+      bg_bunker_foreground_alpha_0_216: -412162571
+      bg_bunker_foreground_alpha_0_217: -1046357545
+      bg_bunker_foreground_alpha_0_218: 1327633432
+      bg_bunker_foreground_alpha_0_219: -1295562836
+      bg_bunker_foreground_alpha_0_22: -588306639
+      bg_bunker_foreground_alpha_0_220: 248815406
+      bg_bunker_foreground_alpha_0_221: -620155229
+      bg_bunker_foreground_alpha_0_222: -1793614231
+      bg_bunker_foreground_alpha_0_223: 629363569
+      bg_bunker_foreground_alpha_0_224: -54543666
+      bg_bunker_foreground_alpha_0_225: -985306385
+      bg_bunker_foreground_alpha_0_226: -905290268
+      bg_bunker_foreground_alpha_0_227: 752898119
+      bg_bunker_foreground_alpha_0_228: 1467767655
+      bg_bunker_foreground_alpha_0_229: -851553374
+      bg_bunker_foreground_alpha_0_23: -1443794091
+      bg_bunker_foreground_alpha_0_230: 2009531224
+      bg_bunker_foreground_alpha_0_231: 2134036241
+      bg_bunker_foreground_alpha_0_232: 1269344769
+      bg_bunker_foreground_alpha_0_233: -1211061204
+      bg_bunker_foreground_alpha_0_234: -500931252
+      bg_bunker_foreground_alpha_0_235: -1617036982
+      bg_bunker_foreground_alpha_0_236: 803987810
+      bg_bunker_foreground_alpha_0_237: -96452098
+      bg_bunker_foreground_alpha_0_238: -1005599896
+      bg_bunker_foreground_alpha_0_239: -1357642186
+      bg_bunker_foreground_alpha_0_24: 359958891
+      bg_bunker_foreground_alpha_0_240: -1924494884
+      bg_bunker_foreground_alpha_0_241: -700574138
+      bg_bunker_foreground_alpha_0_242: -1420884000
+      bg_bunker_foreground_alpha_0_243: 566029894
+      bg_bunker_foreground_alpha_0_244: 969044645
+      bg_bunker_foreground_alpha_0_245: 1738235795
+      bg_bunker_foreground_alpha_0_246: -1551405751
+      bg_bunker_foreground_alpha_0_247: 990607435
+      bg_bunker_foreground_alpha_0_248: 2109404519
+      bg_bunker_foreground_alpha_0_249: 1797712155
+      bg_bunker_foreground_alpha_0_25: -11172332
+      bg_bunker_foreground_alpha_0_250: -1674930730
+      bg_bunker_foreground_alpha_0_251: 2035001783
+      bg_bunker_foreground_alpha_0_252: -1305898550
+      bg_bunker_foreground_alpha_0_253: -864300659
+      bg_bunker_foreground_alpha_0_254: -1800982801
+      bg_bunker_foreground_alpha_0_255: -1845497213
+      bg_bunker_foreground_alpha_0_256: -2053108125
+      bg_bunker_foreground_alpha_0_257: 290027721
+      bg_bunker_foreground_alpha_0_258: 2060709288
+      bg_bunker_foreground_alpha_0_259: -1790628060
+      bg_bunker_foreground_alpha_0_26: -608243492
+      bg_bunker_foreground_alpha_0_260: -2133481167
+      bg_bunker_foreground_alpha_0_261: 385220677
+      bg_bunker_foreground_alpha_0_262: -2132941844
+      bg_bunker_foreground_alpha_0_263: -1500953244
+      bg_bunker_foreground_alpha_0_264: -789745376
+      bg_bunker_foreground_alpha_0_265: 1920863845
+      bg_bunker_foreground_alpha_0_266: 1840643292
+      bg_bunker_foreground_alpha_0_267: -1099348574
+      bg_bunker_foreground_alpha_0_268: 1998639532
+      bg_bunker_foreground_alpha_0_269: -123193965
+      bg_bunker_foreground_alpha_0_27: -1960042655
+      bg_bunker_foreground_alpha_0_270: 1012723417
+      bg_bunker_foreground_alpha_0_271: -1031956478
+      bg_bunker_foreground_alpha_0_272: 1762934884
+      bg_bunker_foreground_alpha_0_273: 66900349
+      bg_bunker_foreground_alpha_0_274: 1741058550
+      bg_bunker_foreground_alpha_0_275: -193331961
+      bg_bunker_foreground_alpha_0_276: -1783636512
+      bg_bunker_foreground_alpha_0_277: 174930848
+      bg_bunker_foreground_alpha_0_278: -804608060
+      bg_bunker_foreground_alpha_0_279: -1501507252
+      bg_bunker_foreground_alpha_0_28: 2070159913
+      bg_bunker_foreground_alpha_0_280: 1158348337
+      bg_bunker_foreground_alpha_0_281: 593491170
+      bg_bunker_foreground_alpha_0_282: -1385145562
+      bg_bunker_foreground_alpha_0_283: 2074915011
+      bg_bunker_foreground_alpha_0_284: 1776090738
+      bg_bunker_foreground_alpha_0_285: 1304599060
+      bg_bunker_foreground_alpha_0_286: 1057407010
+      bg_bunker_foreground_alpha_0_287: 225942082
+      bg_bunker_foreground_alpha_0_288: 1967973240
+      bg_bunker_foreground_alpha_0_289: -1886069902
+      bg_bunker_foreground_alpha_0_29: -1982642800
+      bg_bunker_foreground_alpha_0_290: -118765428
+      bg_bunker_foreground_alpha_0_291: -1171868195
+      bg_bunker_foreground_alpha_0_292: 1252541972
+      bg_bunker_foreground_alpha_0_293: 830354327
+      bg_bunker_foreground_alpha_0_294: -1213306061
+      bg_bunker_foreground_alpha_0_295: 526647696
+      bg_bunker_foreground_alpha_0_296: 1143744676
+      bg_bunker_foreground_alpha_0_297: 1778988338
+      bg_bunker_foreground_alpha_0_298: -2057777874
+      bg_bunker_foreground_alpha_0_299: -23991773
+      bg_bunker_foreground_alpha_0_3: -8918799
+      bg_bunker_foreground_alpha_0_30: -1018455985
+      bg_bunker_foreground_alpha_0_300: -1883024380
+      bg_bunker_foreground_alpha_0_301: -365386426
+      bg_bunker_foreground_alpha_0_302: 1956415297
+      bg_bunker_foreground_alpha_0_303: 810579237
+      bg_bunker_foreground_alpha_0_304: -1951748144
+      bg_bunker_foreground_alpha_0_305: -1362435507
+      bg_bunker_foreground_alpha_0_306: -1153411268
+      bg_bunker_foreground_alpha_0_307: -1500945471
+      bg_bunker_foreground_alpha_0_308: 1548140746
+      bg_bunker_foreground_alpha_0_309: 71788551
+      bg_bunker_foreground_alpha_0_31: 1422766595
+      bg_bunker_foreground_alpha_0_310: -449419079
+      bg_bunker_foreground_alpha_0_311: -1637538553
+      bg_bunker_foreground_alpha_0_312: 715463817
+      bg_bunker_foreground_alpha_0_313: -442541020
+      bg_bunker_foreground_alpha_0_314: 36166999
+      bg_bunker_foreground_alpha_0_315: 358196130
+      bg_bunker_foreground_alpha_0_316: 1298794115
+      bg_bunker_foreground_alpha_0_317: -925644418
+      bg_bunker_foreground_alpha_0_318: 56638934
+      bg_bunker_foreground_alpha_0_319: -261931891
+      bg_bunker_foreground_alpha_0_32: -1825670622
+      bg_bunker_foreground_alpha_0_320: 769483498
+      bg_bunker_foreground_alpha_0_321: -888755559
+      bg_bunker_foreground_alpha_0_322: 2106017285
+      bg_bunker_foreground_alpha_0_323: -353256055
+      bg_bunker_foreground_alpha_0_324: -189617628
+      bg_bunker_foreground_alpha_0_325: -589240618
+      bg_bunker_foreground_alpha_0_326: 821970277
+      bg_bunker_foreground_alpha_0_327: 165827318
+      bg_bunker_foreground_alpha_0_328: -1605582897
+      bg_bunker_foreground_alpha_0_329: 1153994908
+      bg_bunker_foreground_alpha_0_33: -857041500
+      bg_bunker_foreground_alpha_0_330: -2102079827
+      bg_bunker_foreground_alpha_0_331: -300979983
+      bg_bunker_foreground_alpha_0_332: -2109775962
+      bg_bunker_foreground_alpha_0_333: 1496257600
+      bg_bunker_foreground_alpha_0_334: 907428200
+      bg_bunker_foreground_alpha_0_335: 961259115
+      bg_bunker_foreground_alpha_0_336: 2114779671
+      bg_bunker_foreground_alpha_0_337: 195194348
+      bg_bunker_foreground_alpha_0_338: -574288423
+      bg_bunker_foreground_alpha_0_339: -1418114739
+      bg_bunker_foreground_alpha_0_34: 696513396
+      bg_bunker_foreground_alpha_0_340: 1496166923
+      bg_bunker_foreground_alpha_0_341: 1414623631
+      bg_bunker_foreground_alpha_0_342: 1052697048
+      bg_bunker_foreground_alpha_0_343: -1776435336
+      bg_bunker_foreground_alpha_0_344: 65120089
+      bg_bunker_foreground_alpha_0_35: -1650417807
+      bg_bunker_foreground_alpha_0_36: -756635212
+      bg_bunker_foreground_alpha_0_37: 127775383
+      bg_bunker_foreground_alpha_0_38: -386479900
+      bg_bunker_foreground_alpha_0_39: 710929734
+      bg_bunker_foreground_alpha_0_4: 1799132144
+      bg_bunker_foreground_alpha_0_40: -1086253883
+      bg_bunker_foreground_alpha_0_41: -53985787
+      bg_bunker_foreground_alpha_0_42: -776009098
+      bg_bunker_foreground_alpha_0_43: -945797954
+      bg_bunker_foreground_alpha_0_44: -482388423
+      bg_bunker_foreground_alpha_0_45: -1508266757
+      bg_bunker_foreground_alpha_0_46: -38154445
+      bg_bunker_foreground_alpha_0_47: -201526250
+      bg_bunker_foreground_alpha_0_48: 145617237
+      bg_bunker_foreground_alpha_0_49: -2075193280
+      bg_bunker_foreground_alpha_0_5: 81392225
+      bg_bunker_foreground_alpha_0_50: 1018573428
+      bg_bunker_foreground_alpha_0_51: 776636424
+      bg_bunker_foreground_alpha_0_52: 724209608
+      bg_bunker_foreground_alpha_0_53: -435443810
+      bg_bunker_foreground_alpha_0_54: 696762825
+      bg_bunker_foreground_alpha_0_55: 328767724
+      bg_bunker_foreground_alpha_0_56: 1093102397
+      bg_bunker_foreground_alpha_0_57: -1804279284
+      bg_bunker_foreground_alpha_0_58: -5728000
+      bg_bunker_foreground_alpha_0_59: 2053446496
+      bg_bunker_foreground_alpha_0_6: 2093754925
+      bg_bunker_foreground_alpha_0_60: 872011230
+      bg_bunker_foreground_alpha_0_61: -146795874
+      bg_bunker_foreground_alpha_0_62: 745959661
+      bg_bunker_foreground_alpha_0_63: 837598685
+      bg_bunker_foreground_alpha_0_64: -1974887307
+      bg_bunker_foreground_alpha_0_65: -1610385442
+      bg_bunker_foreground_alpha_0_66: 1715302712
+      bg_bunker_foreground_alpha_0_67: 1155781169
+      bg_bunker_foreground_alpha_0_68: 1641444737
+      bg_bunker_foreground_alpha_0_69: -1607347262
+      bg_bunker_foreground_alpha_0_7: -798751263
+      bg_bunker_foreground_alpha_0_70: -294486206
+      bg_bunker_foreground_alpha_0_71: -748764196
+      bg_bunker_foreground_alpha_0_72: -763187914
+      bg_bunker_foreground_alpha_0_73: 1409071885
+      bg_bunker_foreground_alpha_0_74: -1993034805
+      bg_bunker_foreground_alpha_0_75: -948893571
+      bg_bunker_foreground_alpha_0_76: -2038137300
+      bg_bunker_foreground_alpha_0_77: -543158044
+      bg_bunker_foreground_alpha_0_78: -493765825
+      bg_bunker_foreground_alpha_0_79: 1910436971
+      bg_bunker_foreground_alpha_0_8: -1892314193
+      bg_bunker_foreground_alpha_0_80: -454900185
+      bg_bunker_foreground_alpha_0_81: -325417958
+      bg_bunker_foreground_alpha_0_82: -214527561
+      bg_bunker_foreground_alpha_0_83: 1075499347
+      bg_bunker_foreground_alpha_0_84: -1785648127
+      bg_bunker_foreground_alpha_0_85: 129050906
+      bg_bunker_foreground_alpha_0_86: -1837389622
+      bg_bunker_foreground_alpha_0_87: -623117652
+      bg_bunker_foreground_alpha_0_88: -1917788216
+      bg_bunker_foreground_alpha_0_89: 869238917
+      bg_bunker_foreground_alpha_0_9: 1531552762
+      bg_bunker_foreground_alpha_0_90: -1440116021
+      bg_bunker_foreground_alpha_0_91: 681758594
+      bg_bunker_foreground_alpha_0_92: -1976342987
+      bg_bunker_foreground_alpha_0_93: 1739073497
+      bg_bunker_foreground_alpha_0_94: -1954618856
+      bg_bunker_foreground_alpha_0_95: 702133553
+      bg_bunker_foreground_alpha_0_96: -1483278375
+      bg_bunker_foreground_alpha_0_97: 97011661
+      bg_bunker_foreground_alpha_0_98: -1859199421
+      bg_bunker_foreground_alpha_0_99: -767980450
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

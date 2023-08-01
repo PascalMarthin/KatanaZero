@@ -12,7 +12,7 @@ public class PlayManager : MonoBehaviour
 {
     // 레이어
     public static LayerMask wallLayer { get; private set; } = 0;
-    public static LayerMask groundLayer { get; private set; } = 0;
+    //public static LayerMask groundLayer { get; private set; } = 0;
     public static LayerMask unitLayer { get; private set; } = 0;
     public static LayerMask objectLayer { get; private set; } = 0;
     public static LayerMask playerLayer { get; private set; } = 0;
@@ -82,7 +82,7 @@ public class PlayManager : MonoBehaviour
 
     private void Awake()
     {
-        groundLayer = 1 << LayerMask.NameToLayer("GROUND");
+        //groundLayer = 1 << LayerMask.NameToLayer("GROUND"); 20230801 Wall로 통합
         unitLayer = 1 << LayerMask.NameToLayer("UNIT");
         objectLayer = 1 << LayerMask.NameToLayer("OBJECT");
         playerLayer = 1 << LayerMask.NameToLayer("PLAYER");

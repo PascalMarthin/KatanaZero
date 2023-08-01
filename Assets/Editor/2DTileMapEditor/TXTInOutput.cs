@@ -3,7 +3,7 @@ using System.IO;
 
 public class TXTInOutput
 {
-    static public void SaveTxt(List<TileData> _data, string _fileName, string _filePath)
+    static public void SaveTxt(GridData _data, string _fileName, string _filePath)
     {
         string saveFilePath = _filePath;
         saveFilePath += "/" + _fileName;
@@ -14,7 +14,7 @@ public class TXTInOutput
         File.WriteAllText(saveFilePath, jsonStrData);
     }
 
-    static public List<TileData> LoadTxt(string _filePath)
+    static public GridData LoadTxt(string _filePath)
     {
         return JsonInOutput.LoadJson(_filePath);
     }

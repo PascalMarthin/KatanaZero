@@ -6,22 +6,24 @@ using System.IO;
 using System.Xml.Serialization;
 using System.Collections;
 using Unity.VisualScripting.YamlDotNet.Core.Tokens;
+using System.Text;
 
 public class TileMapEditorWindow : EditorWindow
 {
-    private Tilemap tilemap;
+    //private Tilemap targetTilemap;
+    private Grid targetGrid;
     private FileType fileType = FileType.None;
     private StateGUI stateGUI = StateGUI.None;
-    private string savefilePath ;
-    private string fileInputPath ;
-    private string fileOutputPath ;
+    private string savefilePath;
+    private string fileInputPath;
     private string fileName;
     private string fileExtension;
-    
+
     enum StateGUI
     {
         None,
-        Input,
+        TilemapInput,
+        GridInput,
         Output,
         Finish,
     }
@@ -46,8 +48,6 @@ public class TileMapEditorWindow : EditorWindow
     {
         savefilePath = Application.persistentDataPath;
         fileName = "";
-        fileInputPath = "";
-        fileOutputPath = "";
         fileExtension = "";
     }
 
@@ -60,7 +60,7 @@ public class TileMapEditorWindow : EditorWindow
         {
             fileInputPath = UnityEditor.EditorUtility.OpenFilePanel("Select a File", savefilePath, "xml,json,txt,xlsx,bin"); // 탐색기
             // 경로 지정되면 파일명과 확장자 가져오기
-            if(fileInputPath.Length > 0)
+            if (fileInputPath.Length > 0)
             {
                 fileName = System.IO.Path.GetFileNameWithoutExtension(fileInputPath);
                 fileExtension = System.IO.Path.GetExtension(fileInputPath);
@@ -73,10 +73,10 @@ public class TileMapEditorWindow : EditorWindow
             EditorGUILayout.Space(10);
             GUILayout.Label("FileName : " + fileName);
             GUILayout.Label("FileExtension : " + fileExtension);
-            
+
             if (GUILayout.Button("Input") && fileType == FileType.None)
             {
-                stateGUI = StateGUI.Input;
+                stateGUI = StateGUI.TilemapInput;
             }
         }
 
@@ -84,17 +84,17 @@ public class TileMapEditorWindow : EditorWindow
         EditorGUILayout.Space(10);
         GUILayout.Label("Input", EditorStyles.boldLabel);
         GUILayout.Box("", GUILayout.ExpandWidth(true), GUILayout.Height(5));
-        GUILayout.Label("Target TileMap", EditorStyles.boldLabel);
-        tilemap = (Tilemap)EditorGUILayout.ObjectField(tilemap, typeof(Tilemap), allowSceneObjects: true);
+        GUILayout.Label("Target Grid", EditorStyles.boldLabel);
+        targetGrid = (Grid)EditorGUILayout.ObjectField(targetGrid, typeof(Grid), allowSceneObjects: true);
         EditorGUILayout.Space(10);
 
 
         // Output
-        if (tilemap)
+        if (targetGrid)
         {
-            if(fileName.Length < 1)
+            if (fileName.Length < 1)
             {
-                fileName = tilemap.name;
+                fileName = targetGrid.name;
             }
 
             GUILayout.Label("Output", EditorStyles.boldLabel);
@@ -130,6 +130,8 @@ public class TileMapEditorWindow : EditorWindow
         }
 
 
+
+
     }
 
     void OnInspectorUpdate()
@@ -137,13 +139,14 @@ public class TileMapEditorWindow : EditorWindow
         switch (stateGUI)
         {
             case StateGUI.Output:
-                List<TileData> outputData = SaveTilemap();
+                GridData outputData = GridSaveLoad.MakeGridData(targetGrid);
                 OuputTilemap(outputData);
                 stateGUI = StateGUI.Finish;
                 break;
-            case StateGUI.Input:
-                List<TileData> inputData = LoadTilemap(fileInputPath);
-                MakeTilemap(inputData);
+            case StateGUI.TilemapInput:
+                GridData inputData = LoadTilemap(fileInputPath);
+                GridSaveLoad.MakeGrid(inputData);
+                TilemapSaveLoad.ClearSpriteDictionary();
                 stateGUI = StateGUI.Finish;
                 break;
 
@@ -158,10 +161,10 @@ public class TileMapEditorWindow : EditorWindow
         }
     }
 
-    List<TileData> LoadTilemap(string _path)
+    GridData LoadTilemap(string _path)
     {
         string tileMapSaveExtension = System.IO.Path.GetExtension(fileInputPath); // 20230731 맴버 변수 사용 안하는 이유 -> 분리 시키고 싶어서
-        List<TileData> data = null;
+        GridData data = null;
         if (tileMapSaveExtension == ".xml")
         {
             fileType = FileType.XML;
@@ -186,7 +189,7 @@ public class TileMapEditorWindow : EditorWindow
         switch (fileType)
         {
             case FileType.Binary:
-                data = BinaryInOutput.LoadBinary(_path);
+                //data = BinaryInOutput.LoadBinary(_path);
                 break;
             case FileType.Txt:
                 data = TXTInOutput.LoadTxt(_path);
@@ -207,39 +210,14 @@ public class TileMapEditorWindow : EditorWindow
         return data;
     }
 
-    public List<TileData> SaveTilemap()
-    {
-        var bounds = tilemap.cellBounds;
-        var allTiles = tilemap.GetTilesBlock(bounds);
 
-        List<TileData> tileDataList = new List<TileData>();
-
-        for (int x = 0; x < bounds.size.x; x++)
-        {
-            for (int y = 0; y < bounds.size.y; y++)
-            {
-                for (int z = 0; z < bounds.size.z; z++)
-                {
-                    var localPlace = new Vector3Int(x, y, z) + bounds.min; // 최소값으로 기준 이동
-                    TileBase tileBase = allTiles[x + y * bounds.size.x];
-                    Tile tile = tileBase as Tile;
-                    if (tile != null) // 타일이 있는 경우에만 리스트에 추가
-                    {
-                        var tileData = new TileData { position = (Vector2Int)localPlace, spriteName = tile.sprite.name };
-                        tileDataList.Add(tileData);
-                    }
-                }
-            }
-        }
-        return tileDataList;
-    }
-
-    public void OuputTilemap(List<TileData> _data)
+    public void OuputTilemap(GridData _data)
     {
         switch (fileType)
         {
             case FileType.Binary:
-                BinaryInOutput.SaveBinary(_data, fileName, savefilePath);
+                //BinaryInOutput.SaveBinary(_data, fileName, savefilePath); 바이너리 지원 종료 20230801(Tilemap에서 griddata로 변경 이후로 저장범위가 넓어 유지보수가 어려움)
+                Debug.Log("Cant use Binary Output system");
                 break;
             case FileType.Txt:
                 TXTInOutput.SaveTxt(_data, fileName, savefilePath);
@@ -259,82 +237,9 @@ public class TileMapEditorWindow : EditorWindow
         fileType = FileType.None;
     }
 
-    void MakeTilemap(List<TileData> _data)
-    {
-        if (fileName == "")
-        {
-            fileName = "Default";
-        }
+ 
 
-        // Grid 컴포넌트가 있는 부모 게임 오브젝트를 찾거나, 없다면 새로 생성
-        GameObject grid = GameObject.Find("Grid");
-        if (grid == null)
-        {
-            grid = new GameObject("Grid");
-            grid.AddComponent<Grid>();
-        }
-
-        GameObject tilemapGameObject = new GameObject(fileName);
-
-        // Tilemap 컴포넌트와 Tilemap Renderer 컴포넌트를 게임 오브젝트에 추가
-        Tilemap inputTileMap = tilemapGameObject.AddComponent<Tilemap>();
-        tilemapGameObject.AddComponent<TilemapRenderer>();
-
-        tilemapGameObject.transform.SetParent(grid.transform);
-
-
-        Dictionary<string, Sprite> targetSprites = new Dictionary<string, Sprite>(); // 로드 스프라이트
-
-        // 데이터를 TileMap에다가 적용
-        foreach (TileData tileData in _data)
-        {
-            Tile tile = ScriptableObject.CreateInstance<Tile>();
-            string tileSpritesStr = tileData.spriteName;
-
-            // 스프라이트 배열에서 이름으로 스프라이트를 찾음
-            Sprite sprite;
-            if (!targetSprites.TryGetValue(tileSpritesStr, out sprite))
-            {
-                // 없으면 Load
-                string folderStr = "Sprites/Map/Bunker/";
-                int index = tileSpritesStr.LastIndexOf('_');
-                Sprite[] sprites;
-                if (index != -1)
-                {
-                    folderStr += tileSpritesStr.Substring(0, index);
-                    sprites = Resources.LoadAll<Sprite>(folderStr);
-                    if (sprites.Length > 0)
-                    {
-                        foreach (Sprite spr in sprites)
-                        {
-                            targetSprites.Add(spr.name, spr);
-                        }
-                    }
-                    else
-                    {
-                        Debug.Log("We cant find sprites Folder -> " + tileSpritesStr);
-                        continue;
-                    }
-
-                    if (!targetSprites.TryGetValue(tileSpritesStr, out sprite))
-                    {
-                        Debug.Log("We cant find sprite -> " + tileSpritesStr);
-                        continue;
-                    }
-                }
-                else
-                {
-                    Debug.Log("This sprite is not allow -> " + tileSpritesStr);
-                    continue;
-                }
-            }
-            // 타겟 폴더 내 리소스 가져오기
-            tile.sprite = sprite;
-
-            // 타일을 타일맵에 적용함
-            inputTileMap.SetTile(new Vector3Int(tileData.position.x, tileData.position.y, 0), tile);
-        }
-    }
+ 
 }
 
 
